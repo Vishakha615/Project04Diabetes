@@ -4,9 +4,11 @@ import sklearn
 import streamlit as st
 import plotly
 import plotly.express as px
+import xgboost as x
 
 print(np.__version__)
 print(pd.__version__)
 print(sklearn.__version__)
 print(st.__version__)
 print(plotly.__version__)
+print(x.__version__)
